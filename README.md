@@ -12,13 +12,12 @@ The `Editor.UI` library is designed to provide a fast and efficient way to build
 - Fully written in C#
 
 ## Installation
-Use UPM:
+Use UPM, add this to your packages.json
+
     ```
-    git clone https://github.com/azeitler/a6z6-editor-ui-unity.git
+    "com.azeitler.editor.ui": "https://github.com/azeitler/a6z6-editor-ui-unity.git"
     ```
-2. Open your Unity project and navigate to the `Assets` directory.
-3. Copy the `Editor.UI` library files into the `Assets` directory of your Unity project.
-4. Refresh the Unity Editor to recognize the new files.
+
 
 ## Usage
 See ```Inspector``` (recommended) and ```BaseInspector```. Everything else is documented in the code.
