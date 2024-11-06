@@ -467,6 +467,12 @@ namespace A6Z6.Editor.UI
             EditorGUILayout.LabelField(title.ToString(), content == null ? "null" : content.ToString());
         }
 
+        public static void NiceNumber(object title, int content)
+        {
+            EditorStyles.label.wordWrap = true;
+            EditorGUILayout.LabelField(title.ToString(), content.ToString("N0"));
+        }
+
         public static void BoolLabelWarning(object title, bool value)
         {
             BoolLabel(title, value, Color.green, orangeColor);
