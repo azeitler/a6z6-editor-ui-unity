@@ -1,7 +1,7 @@
 {
   "name": "com.azeitler.editor.ui",
   "displayName": "A6Z6 Editor UI",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2018.4",
   "description": "Boilerplate UI library to build custom inspectors fast using bare-metal IMGUI.",
   "keywords": ["azeitler", "editor", "ui"],

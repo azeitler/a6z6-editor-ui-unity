@@ -91,7 +91,10 @@ public class {{0}}Inspector : A6Z6.Editor.UI.Inspector {
             string folder = Path.GetDirectoryName(path);
             if (!folder.Contains("Editor"))
             {
-                folder = Path.Combine(folder, "..", "..", "Editor", "Inspectors");
+                folder = Path.Combine(folder, "..");
+                folder = Path.Combine(folder, "..");
+                folder = Path.Combine(folder, "Editor");
+                folder = Path.Combine(folder, "Inspectors");
                 if (!Directory.Exists(folder))
                 {
                     Directory.CreateDirectory(folder);
